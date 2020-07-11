@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body,html {
+  height:100%;
+  width:100%;
+}
+.satu{
+  background-image: url("satu.jpg");
+  width:100%;
+  height:100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.nav{
+  display:flex;
+  padding:20px;
+  padding-left: 850px;
+  width:100%;
+}
+a{
+  margin:20px;
+  color:white;
+  text-decoration: none;
+  font-size: 1.3vw;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+h1 {
+  /*color:#e5d3ac;
+  background-color:#82363a;
+  width:500px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  mix-blend-mode: screen;*/
+background-color:white;
+color: black;
+font-size: 50px; /* Responsive font size */
+font-weight: bold;
+margin: 0 auto; /* Center the text container */
+padding: 10px;
+width: 500px;
+text-align: center; /* Center text */
+position: absolute; /* Position text */
+top: 50%; /* Position text in the middle */
+left: 50%; /* Position text in the middle */
+transform: translate(-50%, -50%); /* Position text in the middle */
+mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+.dua{
+  background-image: url("dua.jpg");
+  width:100%;
+  height:100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tiga{
+  background-image: url("tiga.jpg");
+  width:100%;
+  height:100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.empat{
+  background-image: url("empat.jpg");
+  width:100%;
+  height:100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container{
+  width:100%;
+  height:50%;
+  background-color:#f4f3f3; /*#82363a;*/
+  text-align: center;
+  color:#82363a;/*#e5d3ac*/
+  padding:50px;
+}
+p{
+  padding:20px;
+  font-size: 17px;
+  text-align-last: center;
+  text-align: justify;
+  line-height: 180%;
+}
+h3{
+  color:#82363a;
+  background-color: #f4f3f3;
+  width:500px;
+  text-align: center;
+  font-size: 50px;
+  padding:10px;
+  top:50%;
+  left:50%;
+}
+
+div.tengah{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:300px;
+}
