@@ -19,12 +19,13 @@ body,html {
 }
 .nav{
   display:flex;
-  padding:20px;
-  padding-left: 850px;
+  padding:1%;
+  padding-left: 70%;
   width:100%;
+  height:20%;
 }
 a{
-  margin:20px;
+  margin:5%;
   color:white;
   text-decoration: none;
   font-size: 1.3vw;
@@ -96,7 +97,7 @@ mix-blend-mode: screen; /* This makes the cutout text possible */
 }
 p{
   padding:20px;
-  font-size: 17px;
+  font-size: 1.7vw;
   text-align-last: center;
   text-align: justify;
   line-height: 180%;
@@ -117,4 +118,9 @@ div.tengah{
   justify-content: center;
   align-items: center;
   padding:300px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
 }
