@@ -97,7 +97,7 @@ mix-blend-mode: screen; /* This makes the cutout text possible */
 }
 p{
   padding:20px;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   text-align-last: center;
   text-align: justify;
   line-height: 180%;
